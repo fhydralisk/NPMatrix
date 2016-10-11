@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		80CFA5D81BC62C2000C5F211 /* NPMatrixTouchAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80CFA5D91BC62C2000C5F211 /* Build configuration list for PBXAggregateTarget "NPMatrixTouchAggregate" */;
+			buildPhases = (
+				80CFA5DE1BC62C5200C5F211 /* ShellScript */,
+			);
+			dependencies = (
+				80CFA5E01BC632FC00C5F211 /* PBXTargetDependency */,
+			);
+			name = NPMatrixTouchAggregate;
+			productName = NPMatrixTouchAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		80CFA5401BC6234C00C5F211 /* NPMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA53F1BC6234C00C5F211 /* NPMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5471BC6234C00C5F211 /* NPMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CFA53C1BC6234C00C5F211 /* NPMatrix.framework */; settings = {ASSET_TAGS = (); }; };
+		80CFA54C1BC6234C00C5F211 /* NPMatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA54B1BC6234C00C5F211 /* NPMatrixTests.m */; };
+		80CFA56B1BC623B900C5F211 /* NPCannyOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5571BC623B900C5F211 /* NPCannyOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA56C1BC623B900C5F211 /* NPCannyOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5581BC623B900C5F211 /* NPCannyOperator.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA56D1BC623B900C5F211 /* NPCannyPointList.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5591BC623B900C5F211 /* NPCannyPointList.h */; settings = {ASSET_TAGS = (); }; };
+		80CFA56E1BC623B900C5F211 /* NPCannyPointList.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55A1BC623B900C5F211 /* NPCannyPointList.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA56F1BC623B900C5F211 /* NPCommonAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55B1BC623B900C5F211 /* NPCommonAlgorithm.h */; settings = {ASSET_TAGS = (); }; };
+		80CFA5701BC623B900C5F211 /* NPCommonAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55C1BC623B900C5F211 /* NPCommonAlgorithm.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5711BC623B900C5F211 /* NPCommonMatrixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55D1BC623B900C5F211 /* NPCommonMatrixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5721BC623B900C5F211 /* NPCommonMatrixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55E1BC623B900C5F211 /* NPCommonMatrixes.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5731BC623B900C5F211 /* NPMatrixOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55F1BC623B900C5F211 /* NPMatrixOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5741BC623B900C5F211 /* NPMatrixOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5601BC623B900C5F211 /* NPMatrixOC.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5751BC623B900C5F211 /* NPMatrixGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5611BC623B900C5F211 /* NPMatrixGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5761BC623B900C5F211 /* NPMatrixGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5621BC623B900C5F211 /* NPMatrixGraphics.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5771BC623B900C5F211 /* NPMatrixOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5631BC623B900C5F211 /* NPMatrixOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5781BC623B900C5F211 /* NPMatrixOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5641BC623B900C5F211 /* NPMatrixOperate.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5791BC623B900C5F211 /* NPMatrixRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5651BC623B900C5F211 /* NPMatrixRGBA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA57A1BC623B900C5F211 /* NPMatrixRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5661BC623B900C5F211 /* NPMatrixRGBA.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA57B1BC623B900C5F211 /* NPMatrixType.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5671BC623B900C5F211 /* NPMatrixType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA57C1BC623B900C5F211 /* NPMatrixType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5681BC623B900C5F211 /* NPMatrixType.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA57D1BC623B900C5F211 /* NPMatrixUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5691BC623B900C5F211 /* NPMatrixUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA57E1BC623B900C5F211 /* NPMatrixUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA56A1BC623B900C5F211 /* NPMatrixUtilities.m */; settings = {ASSET_TAGS = (); }; };
+		80CFA5871BC6256200C5F211 /* NPMatrixTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5861BC6256200C5F211 /* NPMatrixTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA58E1BC6256200C5F211 /* NPMatrixTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CFA5841BC6256200C5F211 /* NPMatrixTouch.framework */; settings = {ASSET_TAGS = (); }; };
+		80CFA5931BC6256200C5F211 /* NPMatrixTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5921BC6256200C5F211 /* NPMatrixTouchTests.m */; };
+		80CFA59B1BC6257C00C5F211 /* NPCannyOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5571BC623B900C5F211 /* NPCannyOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA59C1BC6257D00C5F211 /* NPCannyPointList.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5591BC623B900C5F211 /* NPCannyPointList.h */; };
+		80CFA59D1BC6258700C5F211 /* NPCommonMatrixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55D1BC623B900C5F211 /* NPCommonMatrixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA59E1BC6258900C5F211 /* NPMatrixOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55F1BC623B900C5F211 /* NPMatrixOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA59F1BC6258B00C5F211 /* NPMatrixGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5611BC623B900C5F211 /* NPMatrixGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5A01BC6258E00C5F211 /* NPMatrixOperate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5631BC623B900C5F211 /* NPMatrixOperate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5A11BC6259100C5F211 /* NPMatrixRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5651BC623B900C5F211 /* NPMatrixRGBA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5A21BC6259500C5F211 /* NPMatrixType.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5671BC623B900C5F211 /* NPMatrixType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5A31BC6259700C5F211 /* NPMatrixUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA5691BC623B900C5F211 /* NPMatrixUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CFA5A41BC6259A00C5F211 /* NPCommonAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CFA55B1BC623B900C5F211 /* NPCommonAlgorithm.h */; };
+		80CFA5A51BC625B300C5F211 /* NPCannyOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5581BC623B900C5F211 /* NPCannyOperator.m */; };
+		80CFA5A61BC625B500C5F211 /* NPCannyPointList.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55A1BC623B900C5F211 /* NPCannyPointList.m */; };
+		80CFA5A71BC625B700C5F211 /* NPCommonAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55C1BC623B900C5F211 /* NPCommonAlgorithm.m */; };
+		80CFA5A81BC625B800C5F211 /* NPCommonMatrixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA55E1BC623B900C5F211 /* NPCommonMatrixes.m */; };
+		80CFA5A91BC625BA00C5F211 /* NPMatrixOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5601BC623B900C5F211 /* NPMatrixOC.m */; };
+		80CFA5AA1BC625BE00C5F211 /* NPMatrixGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5621BC623B900C5F211 /* NPMatrixGraphics.m */; };
+		80CFA5AB1BC625C000C5F211 /* NPMatrixOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5641BC623B900C5F211 /* NPMatrixOperate.m */; };
+		80CFA5AC1BC625C300C5F211 /* NPMatrixRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5661BC623B900C5F211 /* NPMatrixRGBA.m */; };
+		80CFA5AD1BC625C500C5F211 /* NPMatrixType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA5681BC623B900C5F211 /* NPMatrixType.m */; };
+		80CFA5AE1BC625C700C5F211 /* NPMatrixUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFA56A1BC623B900C5F211 /* NPMatrixUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CFA5481BC6234C00C5F211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CFA5331BC6234C00C5F211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CFA53B1BC6234C00C5F211;
+			remoteInfo = NPMatrix;
+		};
+		80CFA58F1BC6256200C5F211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CFA5331BC6234C00C5F211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CFA5831BC6256200C5F211;
+			remoteInfo = NPMatrixTouch;
+		};
+		80CFA5DF1BC632FC00C5F211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CFA5331BC6234C00C5F211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CFA5831BC6256200C5F211;
+			remoteInfo = NPMatrixTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80CFA53C1BC6234C00C5F211 /* NPMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NPMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CFA53F1BC6234C00C5F211 /* NPMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMatrix.h; sourceTree = "<group>"; };
+		80CFA5411BC6234C00C5F211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CFA5461BC6234C00C5F211 /* NPMatrixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CFA54B1BC6234C00C5F211 /* NPMatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPMatrixTests.m; sourceTree = "<group>"; };
+		80CFA54D1BC6234C00C5F211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CFA5571BC623B900C5F211 /* NPCannyOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCannyOperator.h; sourceTree = "<group>"; };
+		80CFA5581BC623B900C5F211 /* NPCannyOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCannyOperator.m; sourceTree = "<group>"; };
+		80CFA5591BC623B900C5F211 /* NPCannyPointList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCannyPointList.h; sourceTree = "<group>"; };
+		80CFA55A1BC623B900C5F211 /* NPCannyPointList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCannyPointList.m; sourceTree = "<group>"; };
+		80CFA55B1BC623B900C5F211 /* NPCommonAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCommonAlgorithm.h; sourceTree = "<group>"; };
+		80CFA55C1BC623B900C5F211 /* NPCommonAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCommonAlgorithm.m; sourceTree = "<group>"; };
+		80CFA55D1BC623B900C5F211 /* NPCommonMatrixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCommonMatrixes.h; sourceTree = "<group>"; };
+		80CFA55E1BC623B900C5F211 /* NPCommonMatrixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCommonMatrixes.m; sourceTree = "<group>"; };
+		80CFA55F1BC623B900C5F211 /* NPMatrixOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixOC.h; sourceTree = "<group>"; };
+		80CFA5601BC623B900C5F211 /* NPMatrixOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixOC.m; sourceTree = "<group>"; };
+		80CFA5611BC623B900C5F211 /* NPMatrixGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixGraphics.h; sourceTree = "<group>"; };
+		80CFA5621BC623B900C5F211 /* NPMatrixGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixGraphics.m; sourceTree = "<group>"; };
+		80CFA5631BC623B900C5F211 /* NPMatrixOperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixOperate.h; sourceTree = "<group>"; };
+		80CFA5641BC623B900C5F211 /* NPMatrixOperate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixOperate.m; sourceTree = "<group>"; };
+		80CFA5651BC623B900C5F211 /* NPMatrixRGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixRGBA.h; sourceTree = "<group>"; };
+		80CFA5661BC623B900C5F211 /* NPMatrixRGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixRGBA.m; sourceTree = "<group>"; };
+		80CFA5671BC623B900C5F211 /* NPMatrixType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixType.h; sourceTree = "<group>"; };
+		80CFA5681BC623B900C5F211 /* NPMatrixType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixType.m; sourceTree = "<group>"; };
+		80CFA5691BC623B900C5F211 /* NPMatrixUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMatrixUtilities.h; sourceTree = "<group>"; };
+		80CFA56A1BC623B900C5F211 /* NPMatrixUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMatrixUtilities.m; sourceTree = "<group>"; };
+		80CFA5841BC6256200C5F211 /* NPMatrixTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NPMatrixTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CFA5861BC6256200C5F211 /* NPMatrixTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMatrixTouch.h; sourceTree = "<group>"; };
+		80CFA5881BC6256200C5F211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CFA58D1BC6256200C5F211 /* NPMatrixTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPMatrixTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CFA5921BC6256200C5F211 /* NPMatrixTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPMatrixTouchTests.m; sourceTree = "<group>"; };
+		80CFA5941BC6256200C5F211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CFA5381BC6234C00C5F211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5431BC6234C00C5F211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA5471BC6234C00C5F211 /* NPMatrix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5801BC6256200C5F211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA58A1BC6256200C5F211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA58E1BC6256200C5F211 /* NPMatrixTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CFA5321BC6234C00C5F211 = {
+			isa = PBXGroup;
+			children = (
+				80CFA53E1BC6234C00C5F211 /* NPMatrix */,
+				80CFA54A1BC6234C00C5F211 /* NPMatrixTests */,
+				80CFA5851BC6256200C5F211 /* NPMatrixTouch */,
+				80CFA5911BC6256200C5F211 /* NPMatrixTouchTests */,
+				80CFA53D1BC6234C00C5F211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CFA53D1BC6234C00C5F211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA53C1BC6234C00C5F211 /* NPMatrix.framework */,
+				80CFA5461BC6234C00C5F211 /* NPMatrixTests.xctest */,
+				80CFA5841BC6256200C5F211 /* NPMatrixTouch.framework */,
+				80CFA58D1BC6256200C5F211 /* NPMatrixTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CFA53E1BC6234C00C5F211 /* NPMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA53F1BC6234C00C5F211 /* NPMatrix.h */,
+				80CFA5561BC623B900C5F211 /* NPMatrix */,
+				80CFA5411BC6234C00C5F211 /* Info.plist */,
+			);
+			path = NPMatrix;
+			sourceTree = "<group>";
+		};
+		80CFA54A1BC6234C00C5F211 /* NPMatrixTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA54B1BC6234C00C5F211 /* NPMatrixTests.m */,
+				80CFA54D1BC6234C00C5F211 /* Info.plist */,
+			);
+			path = NPMatrixTests;
+			sourceTree = "<group>";
+		};
+		80CFA5561BC623B900C5F211 /* NPMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA5571BC623B900C5F211 /* NPCannyOperator.h */,
+				80CFA5581BC623B900C5F211 /* NPCannyOperator.m */,
+				80CFA5591BC623B900C5F211 /* NPCannyPointList.h */,
+				80CFA55A1BC623B900C5F211 /* NPCannyPointList.m */,
+				80CFA55B1BC623B900C5F211 /* NPCommonAlgorithm.h */,
+				80CFA55C1BC623B900C5F211 /* NPCommonAlgorithm.m */,
+				80CFA55D1BC623B900C5F211 /* NPCommonMatrixes.h */,
+				80CFA55E1BC623B900C5F211 /* NPCommonMatrixes.m */,
+				80CFA55F1BC623B900C5F211 /* NPMatrixOC.h */,
+				80CFA5601BC623B900C5F211 /* NPMatrixOC.m */,
+				80CFA5611BC623B900C5F211 /* NPMatrixGraphics.h */,
+				80CFA5621BC623B900C5F211 /* NPMatrixGraphics.m */,
+				80CFA5631BC623B900C5F211 /* NPMatrixOperate.h */,
+				80CFA5641BC623B900C5F211 /* NPMatrixOperate.m */,
+				80CFA5651BC623B900C5F211 /* NPMatrixRGBA.h */,
+				80CFA5661BC623B900C5F211 /* NPMatrixRGBA.m */,
+				80CFA5671BC623B900C5F211 /* NPMatrixType.h */,
+				80CFA5681BC623B900C5F211 /* NPMatrixType.m */,
+				80CFA5691BC623B900C5F211 /* NPMatrixUtilities.h */,
+				80CFA56A1BC623B900C5F211 /* NPMatrixUtilities.m */,
+			);
+			path = NPMatrix;
+			sourceTree = "<group>";
+		};
+		80CFA5851BC6256200C5F211 /* NPMatrixTouch */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA5861BC6256200C5F211 /* NPMatrixTouch.h */,
+				80CFA5881BC6256200C5F211 /* Info.plist */,
+			);
+			path = NPMatrixTouch;
+			sourceTree = "<group>";
+		};
+		80CFA5911BC6256200C5F211 /* NPMatrixTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CFA5921BC6256200C5F211 /* NPMatrixTouchTests.m */,
+				80CFA5941BC6256200C5F211 /* Info.plist */,
+			);
+			path = NPMatrixTouchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80CFA5391BC6234C00C5F211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA5751BC623B900C5F211 /* NPMatrixGraphics.h in Headers */,
+				80CFA56D1BC623B900C5F211 /* NPCannyPointList.h in Headers */,
+				80CFA57D1BC623B900C5F211 /* NPMatrixUtilities.h in Headers */,
+				80CFA57B1BC623B900C5F211 /* NPMatrixType.h in Headers */,
+				80CFA5771BC623B900C5F211 /* NPMatrixOperate.h in Headers */,
+				80CFA56B1BC623B900C5F211 /* NPCannyOperator.h in Headers */,
+				80CFA5791BC623B900C5F211 /* NPMatrixRGBA.h in Headers */,
+				80CFA5711BC623B900C5F211 /* NPCommonMatrixes.h in Headers */,
+				80CFA5731BC623B900C5F211 /* NPMatrixOC.h in Headers */,
+				80CFA5401BC6234C00C5F211 /* NPMatrix.h in Headers */,
+				80CFA56F1BC623B900C5F211 /* NPCommonAlgorithm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5811BC6256200C5F211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA5871BC6256200C5F211 /* NPMatrixTouch.h in Headers */,
+				80CFA59B1BC6257C00C5F211 /* NPCannyOperator.h in Headers */,
+				80CFA59D1BC6258700C5F211 /* NPCommonMatrixes.h in Headers */,
+				80CFA59E1BC6258900C5F211 /* NPMatrixOC.h in Headers */,
+				80CFA59F1BC6258B00C5F211 /* NPMatrixGraphics.h in Headers */,
+				80CFA5A01BC6258E00C5F211 /* NPMatrixOperate.h in Headers */,
+				80CFA5A11BC6259100C5F211 /* NPMatrixRGBA.h in Headers */,
+				80CFA5A21BC6259500C5F211 /* NPMatrixType.h in Headers */,
+				80CFA5A31BC6259700C5F211 /* NPMatrixUtilities.h in Headers */,
+				80CFA5A41BC6259A00C5F211 /* NPCommonAlgorithm.h in Headers */,
+				80CFA59C1BC6257D00C5F211 /* NPCannyPointList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80CFA53B1BC6234C00C5F211 /* NPMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CFA5501BC6234C00C5F211 /* Build configuration list for PBXNativeTarget "NPMatrix" */;
+			buildPhases = (
+				80CFA5371BC6234C00C5F211 /* Sources */,
+				80CFA5381BC6234C00C5F211 /* Frameworks */,
+				80CFA5391BC6234C00C5F211 /* Headers */,
+				80CFA53A1BC6234C00C5F211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPMatrix;
+			productName = NPMatrix;
+			productReference = 80CFA53C1BC6234C00C5F211 /* NPMatrix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CFA5451BC6234C00C5F211 /* NPMatrixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CFA5531BC6234C00C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTests" */;
+			buildPhases = (
+				80CFA5421BC6234C00C5F211 /* Sources */,
+				80CFA5431BC6234C00C5F211 /* Frameworks */,
+				80CFA5441BC6234C00C5F211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CFA5491BC6234C00C5F211 /* PBXTargetDependency */,
+			);
+			name = NPMatrixTests;
+			productName = NPMatrixTests;
+			productReference = 80CFA5461BC6234C00C5F211 /* NPMatrixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CFA5831BC6256200C5F211 /* NPMatrixTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CFA5951BC6256200C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTouch" */;
+			buildPhases = (
+				80CFA57F1BC6256200C5F211 /* Sources */,
+				80CFA5801BC6256200C5F211 /* Frameworks */,
+				80CFA5811BC6256200C5F211 /* Headers */,
+				80CFA5821BC6256200C5F211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPMatrixTouch;
+			productName = NPMatrixTouch;
+			productReference = 80CFA5841BC6256200C5F211 /* NPMatrixTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CFA58C1BC6256200C5F211 /* NPMatrixTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CFA5981BC6256200C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTouchTests" */;
+			buildPhases = (
+				80CFA5891BC6256200C5F211 /* Sources */,
+				80CFA58A1BC6256200C5F211 /* Frameworks */,
+				80CFA58B1BC6256200C5F211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CFA5901BC6256200C5F211 /* PBXTargetDependency */,
+			);
+			name = NPMatrixTouchTests;
+			productName = NPMatrixTouchTests;
+			productReference = 80CFA58D1BC6256200C5F211 /* NPMatrixTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CFA5331BC6234C00C5F211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hydra;
+				TargetAttributes = {
+					80CFA53B1BC6234C00C5F211 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					80CFA5451BC6234C00C5F211 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					80CFA5831BC6256200C5F211 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					80CFA58C1BC6256200C5F211 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					80CFA5D81BC62C2000C5F211 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 80CFA5361BC6234C00C5F211 /* Build configuration list for PBXProject "NPMatrix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80CFA5321BC6234C00C5F211;
+			productRefGroup = 80CFA53D1BC6234C00C5F211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CFA53B1BC6234C00C5F211 /* NPMatrix */,
+				80CFA5451BC6234C00C5F211 /* NPMatrixTests */,
+				80CFA5831BC6256200C5F211 /* NPMatrixTouch */,
+				80CFA58C1BC6256200C5F211 /* NPMatrixTouchTests */,
+				80CFA5D81BC62C2000C5F211 /* NPMatrixTouchAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CFA53A1BC6234C00C5F211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5441BC6234C00C5F211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5821BC6256200C5F211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA58B1BC6256200C5F211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80CFA5DE1BC62C5200C5F211 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nexport NP_TARGET=\"NPMatrixTouch\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild    -project \"${PROJECT_FILE_PATH}\" \\\n                        -target \"${TARGET_NAME}\" \\\n                        -configuration \"${CONFIGURATION}\" \\\n                        -sdk \"${1}\" \\\n                        ONLY_ACTIVE_ARCH=NO \\\n                        BUILD_DIR=\"${BUILD_DIR}\" \\\n                        OBJROOT=\"${OBJROOT}\" \\\n                        BUILD_ROOT=\"${BUILD_ROOT}\" \\\n                        SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n#open \"${BUILD_DIR}\"\n\nbuild_static_library \"iphoneos\"\nbuild_static_library \"iphonesimulator\"\n\nexport IOS_FMK_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos/${NP_TARGET}.framework\nexport SIM_FMK_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${NP_TARGET}.framework\nexport FAT_FMK_DIR=${BUILD_DIR}/${NP_TARGET}.framework\n\nif [ -d \"${FAT_FMK_DIR}\" ]\nthen\nrm -rf \"${FAT_FMK_DIR}\"\nfi\n\nmkdir \"${FAT_FMK_DIR}\"\n\ncp -R \"${SIM_FMK_DIR}/\" \"${FAT_FMK_DIR}/\"\n\nmake_fat_library \"${IOS_FMK_DIR}/${NP_TARGET}\" \\\n                 \"${SIM_FMK_DIR}/${NP_TARGET}\" \\\n                  \"${FAT_FMK_DIR}/${NP_TARGET}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CFA5371BC6234C00C5F211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA57A1BC623B900C5F211 /* NPMatrixRGBA.m in Sources */,
+				80CFA56E1BC623B900C5F211 /* NPCannyPointList.m in Sources */,
+				80CFA5761BC623B900C5F211 /* NPMatrixGraphics.m in Sources */,
+				80CFA57E1BC623B900C5F211 /* NPMatrixUtilities.m in Sources */,
+				80CFA5781BC623B900C5F211 /* NPMatrixOperate.m in Sources */,
+				80CFA5721BC623B900C5F211 /* NPCommonMatrixes.m in Sources */,
+				80CFA56C1BC623B900C5F211 /* NPCannyOperator.m in Sources */,
+				80CFA5701BC623B900C5F211 /* NPCommonAlgorithm.m in Sources */,
+				80CFA5741BC623B900C5F211 /* NPMatrixOC.m in Sources */,
+				80CFA57C1BC623B900C5F211 /* NPMatrixType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5421BC6234C00C5F211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA54C1BC6234C00C5F211 /* NPMatrixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA57F1BC6256200C5F211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA5A81BC625B800C5F211 /* NPCommonMatrixes.m in Sources */,
+				80CFA5A51BC625B300C5F211 /* NPCannyOperator.m in Sources */,
+				80CFA5A61BC625B500C5F211 /* NPCannyPointList.m in Sources */,
+				80CFA5A91BC625BA00C5F211 /* NPMatrixOC.m in Sources */,
+				80CFA5A71BC625B700C5F211 /* NPCommonAlgorithm.m in Sources */,
+				80CFA5AA1BC625BE00C5F211 /* NPMatrixGraphics.m in Sources */,
+				80CFA5AB1BC625C000C5F211 /* NPMatrixOperate.m in Sources */,
+				80CFA5AC1BC625C300C5F211 /* NPMatrixRGBA.m in Sources */,
+				80CFA5AD1BC625C500C5F211 /* NPMatrixType.m in Sources */,
+				80CFA5AE1BC625C700C5F211 /* NPMatrixUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CFA5891BC6256200C5F211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CFA5931BC6256200C5F211 /* NPMatrixTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CFA5491BC6234C00C5F211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CFA53B1BC6234C00C5F211 /* NPMatrix */;
+			targetProxy = 80CFA5481BC6234C00C5F211 /* PBXContainerItemProxy */;
+		};
+		80CFA5901BC6256200C5F211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CFA5831BC6256200C5F211 /* NPMatrixTouch */;
+			targetProxy = 80CFA58F1BC6256200C5F211 /* PBXContainerItemProxy */;
+		};
+		80CFA5E01BC632FC00C5F211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CFA5831BC6256200C5F211 /* NPMatrixTouch */;
+			targetProxy = 80CFA5DF1BC632FC00C5F211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80CFA54E1BC6234C00C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80CFA54F1BC6234C00C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80CFA5511BC6234C00C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NPMatrix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80CFA5521BC6234C00C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NPMatrix/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80CFA5541BC6234C00C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPMatrixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80CFA5551BC6234C00C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPMatrixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80CFA5961BC6256200C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NPMatrixTouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CFA5971BC6256200C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NPMatrixTouch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CFA5991BC6256200C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NPMatrixTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80CFA59A1BC6256200C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NPMatrixTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopqzip.NPMatrixTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CFA5DA1BC62C2000C5F211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80CFA5DB1BC62C2000C5F211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CFA5361BC6234C00C5F211 /* Build configuration list for PBXProject "NPMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA54E1BC6234C00C5F211 /* Debug */,
+				80CFA54F1BC6234C00C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CFA5501BC6234C00C5F211 /* Build configuration list for PBXNativeTarget "NPMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA5511BC6234C00C5F211 /* Debug */,
+				80CFA5521BC6234C00C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CFA5531BC6234C00C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA5541BC6234C00C5F211 /* Debug */,
+				80CFA5551BC6234C00C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CFA5951BC6256200C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA5961BC6256200C5F211 /* Debug */,
+				80CFA5971BC6256200C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CFA5981BC6256200C5F211 /* Build configuration list for PBXNativeTarget "NPMatrixTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA5991BC6256200C5F211 /* Debug */,
+				80CFA59A1BC6256200C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CFA5D91BC62C2000C5F211 /* Build configuration list for PBXAggregateTarget "NPMatrixTouchAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CFA5DA1BC62C2000C5F211 /* Debug */,
+				80CFA5DB1BC62C2000C5F211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CFA5331BC6234C00C5F211 /* Project object */;
+}
